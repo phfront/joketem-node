@@ -6,4 +6,6 @@ app.use(express.json());
 app.use('/api', require('./src/routes'));
 app.use(cors());
 
-app.listen(3000);
+const port = process.env.PORT || 8080;
+
+app.listen(port);
