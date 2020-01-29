@@ -7,7 +7,7 @@
     "start": "nodemon app.js",
     "build": "webpack --config build/webpack.prod.conf.js",
     "dev": "webpack --config build/webpack.dev.conf.js",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=production --cleanup"
   },
   "keywords": [],
   "author": "",
