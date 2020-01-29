@@ -5,9 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "build": "webpack --config build/webpack.prod.conf.js",
-    "deploy": "push-dir --dir=dist --branch=production --cleanup"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
